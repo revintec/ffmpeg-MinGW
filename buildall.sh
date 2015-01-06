@@ -1,5 +1,7 @@
 #!/bin/bash
 
+alias make="mingw32-make -j4"
+
 cd x264-snapshot-20141218-2245
 make uninstall
 make clean
